@@ -49,4 +49,13 @@ Swagger (OpenAPI UI)
 
 ou : http://localhost:8080/swagger-ui/index.html
 
+🛠️ Technologies
+- Java 17
+- Spring Boot 3+
+- Gradle
+- Spring Security (JWT)
+- JPA / Hibernate
+- Base de données PostgreSQL
+- Swagger / OpenAPI
+
 
