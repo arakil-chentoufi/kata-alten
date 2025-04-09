@@ -25,3 +25,28 @@ cd kata-alten
 
 # Lancer avec Gradle wrapper
 ./gradlew bootRun
+
+# Créer un compte
+POST /api-auth/register
+
+{
+  "username": "admin@admin.com",
+  "firstname": "admin",
+  "email": "admin@admin.com",
+  "password": "admin1234"
+}
+
+# Se connecter
+POST /api-auth/authenticate
+
+{
+  "username": "admin@admin.com",
+  "password": "admin1234"
+}
+🧪 Documentation & Tests
+Swagger (OpenAPI UI)
+📘 http://localhost:8080/swagger-ui.html
+
+ou : http://localhost:8080/swagger-ui/index.html
+
+
